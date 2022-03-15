@@ -1,0 +1,14 @@
+.container_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--bg-secondary);
+    height: 100px;
+}
+
+.container_footer span {
+    font-size: 1em;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--bg-white);
+}

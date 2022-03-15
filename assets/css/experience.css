@@ -1,0 +1,81 @@
+.container_experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 400px;
+    background: var(--bg-primary);
+}
+
+.container_experience_box {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.container_experience_box h3 {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: var(--bg-secondary);
+    margin-bottom: 10px;
+}
+
+.container_experience_box_cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container_experience_box_card {
+    width: 500px;
+    height: 280px;
+    padding: 10px;
+    background: var(--bg-white);
+    margin: 5px;
+    border-radius: 5px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container_experience_box_card_title {
+    padding: 5px;
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: var(--bg-secondary);
+    margin-bottom: 5px;
+}
+
+.container_experience_box_card_tempo {
+    padding: 5px;
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: var(--bg-secondary);
+    margin-bottom: 5px;
+}
+
+.container_experience_box_card_atividade {
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: var(--bg-secondary);
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+
+.container_experience_box_card_skills {
+    padding: 5px;
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: var(--bg-secondary);
+}
